@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    padding: 10px;
+    font-family: 'Roboto Slab', serif;
+    background: #FBA919;
+}
+
+h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+h4 {
+    text-decoration: underline;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 3px 5px;
+    background: #000;
+    margin-bottom: 10px;
+    display: block;
+    color: #fff;
+}
+
+.orders {
+    margin: auto;
+    width: 400px;
+}
+
+.add {
+    width: 400px;
+    padding: 10px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.add-new {
+    background: #FBA919;
+    border: none;
+    padding: 10px;
+    border-radius: 7px;
+    font-weight: bold;
+}
+
+ul li .edit {
+    display: none;
+}
+
+ul li.edit .edit {
+    display: initial;
+}
+
+ul li.edit .noedit {
+    display: none;
+}
